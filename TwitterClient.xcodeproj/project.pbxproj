@@ -13,6 +13,7 @@
 		681295441A5D864B003483A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681295431A5D864B003483A9 /* Images.xcassets */; };
 		681295471A5D864B003483A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681295451A5D864B003483A9 /* LaunchScreen.xib */; };
 		681295531A5D864B003483A9 /* TwitterClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681295521A5D864B003483A9 /* TwitterClientTests.swift */; };
+		6812955D1A5D8699003483A9 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6812955C1A5D8699003483A9 /* Status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6812954C1A5D864B003483A9 /* TwitterClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		681295511A5D864B003483A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		681295521A5D864B003483A9 /* TwitterClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterClientTests.swift; sourceTree = "<group>"; };
+		6812955C1A5D8699003483A9 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				681295431A5D864B003483A9 /* Images.xcassets */,
 				681295451A5D864B003483A9 /* LaunchScreen.xib */,
 				6812953A1A5D864B003483A9 /* Supporting Files */,
+				6812955C1A5D8699003483A9 /* Status.swift */,
 			);
 			path = TwitterClient;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				6812953F1A5D864B003483A9 /* ViewController.swift in Sources */,
 				6812953D1A5D864B003483A9 /* AppDelegate.swift in Sources */,
+				6812955D1A5D8699003483A9 /* Status.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				681295581A5D864B003483A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		681295591A5D864B003483A9 /* Build configuration list for PBXNativeTarget "TwitterClientTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				6812955B1A5D864B003483A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
